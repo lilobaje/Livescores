@@ -11,7 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Config
-API_KEY = os.environ.get("API_KEY", "")  # Get API key from environment variables
+API_KEY = '22024e49a88d83491361bf61dc780a94'  # Get API key from environment variables
 SPORT = "football"  # You can change this to basketball, cricket, etc.
 
 # Cache for storing the latest data
